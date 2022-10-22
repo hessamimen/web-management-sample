@@ -1,5 +1,11 @@
 import React from 'react'
-import {FaFacebook} from 'react-icons/fa'
+import {
+    FaFacebook,
+    FaGithub,
+    FaInstagram,
+    FaTwitter,
+    FaTwitch,
+} from 'react-icons/fa'
 
 function Footer() {
   return (
