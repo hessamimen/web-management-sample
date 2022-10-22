@@ -9,14 +9,14 @@ function Support() {
         <div className='w-full h-[700px] bg-gray-900/70 absolute'>
             <img className='w-full h-full object-cover mix-blend-overlay' src={supportImg} alt="/" />
         </div>
-        <div className='max-w-[1240] mx-auto text-white relative '>
+        <div className='max-w-[1240px] mx-auto text-white relative '>
             <div className='px-4 py-12 text-center' >
                 <h3 className='text-3xl pt-8 text-slate-300 uppercase '>Support</h3>
                 <h2 className='text-5xl font-bold py-6 '>Finding The Right Team</h2>
                 <p className='py-4 text-2xl text-slate-300'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam voluptas repudiandae voluptates. Nulla facilis, culpa consectetur ipsum, voluptatem laborum commodi eos placeat officia expedita velit rem adipisci, a ipsa!</p>
             </div>
             
-            <div className='grid lg:grid-cols-3 relative gap-x-8 gap-y-16 px-8 pt-12 sm:pt-20 text-black xl:mx-36'>
+            <div className='grid lg:grid-cols-3 relative gap-x-8 gap-y-16 px-8 pt-12 sm:pt-20 text-black'>
             {/* Sales Cart ************************** */}
                 <div className='bg-white rounded-xl shadow-2xl'>
                     <div className='p-8'>
