@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect,useState } from 'react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
 import { Link } from 'react-scroll'
 
@@ -11,8 +11,7 @@ function NavBar() {
     const handleClick = () => {
         setNav(!nav)
     }
-
-
+    
   return (
     <div className='w-screen fixed h-20 z-10 bg-zinc-200 drop-shadow-lg'>
         <div className='px-2 flex justify-between items-center w-full h-full'>
@@ -31,11 +30,11 @@ function NavBar() {
                 <button className='px-8 py-3'>Sign Out</button>
             </div>
             <div className='md:hidden mr-4' onClick={handleClick}>
-                {!nav ? <Bars3Icon className='w-5'/> : <XMarkIcon className='w-5'/>   }
+                {!nav ? <Bars3Icon className='w-5'/> : <XMarkIcon className='w-5'/>}
                 
             </div>
         </div>
-        <ul className={!nav ? 'hidden' : 'absolute bg-zinc-200 w-full px-8'}>
+        <ul className={!nav ? 'hidden' : 'absolute bg-zinc-200 w-full px-8 md:hidden'}>
 
                 <li className=' border-b-2 border-zinc-300 w-full cursor-default hover:bg-indigo-600 hover:rounded-xl'><Link to="home" smooth={true} duration={500} onClick={handleClick}>Home</Link></li>
                 <li className='border-b-2 border-zinc-300 w-full cursor-default hover:bg-indigo-600 hover:rounded-xl'><Link to="about" smooth={true} offset={-150} duration={500} onClick={handleClick}>About</Link></li>
