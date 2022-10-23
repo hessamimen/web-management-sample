@@ -8,7 +8,7 @@ function Hero() {
         <div className='grid md:grid-cols-2 max-w-[1240px] mx-auto m-auto'>
             <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
                 <p className='text-2xl'>Unique Sequencing & Production</p>
-                <h1 className='text-5xl py-3 md:text-7xl font-bold'>Cloud Management</h1>
+                <h1 className='text-5xl py-3 md:text-7xl font-bold'>Web Development Management</h1>
                 <p className='text-2xl'>This is our tech brand.</p>
                 <button className='py-3 px-6 my-2 sm:w-[60%]'>Get Started</button>
             </div>

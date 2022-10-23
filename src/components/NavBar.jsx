@@ -1,4 +1,4 @@
-import React, { useEffect,useState } from 'react'
+import React, { useState } from 'react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
 import { Link } from 'react-scroll'
 
@@ -11,12 +11,12 @@ function NavBar() {
     const handleClick = () => {
         setNav(!nav)
     }
-    
+
   return (
     <div className='w-screen fixed h-20 z-10 bg-zinc-200 drop-shadow-lg'>
         <div className='px-2 flex justify-between items-center w-full h-full'>
             <div className='flex items-center'>
-                <h1 className='text-3xl font-bold mr-4 sm:text-4xl'>BRAND</h1>
+                <h1 className='text-3xl font-bold mr-4 sm:text-4xl font-serif italic'>Hessam</h1>
                 <ul className='hidden md:flex'>
                     <li className='cursor-default hover:bg-indigo-600 rounded-xl'><Link to="home" smooth={true} offset={100} duration={500}>Home</Link></li>
                     <li className='cursor-default hover:bg-indigo-600 rounded-xl'><Link to="about" smooth={true} offset={-200} duration={500}>About</Link></li>
