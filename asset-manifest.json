@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/web-management-sample/static/css/main.fa17e470.css",
+    "main.js": "/web-management-sample/static/js/main.012f0f79.js",
+    "static/media/support.jpeg": "/web-management-sample/static/media/support.13dffa5bdb3a671bcb5b.jpeg",
+    "static/media/cyber-bg.png": "/web-management-sample/static/media/cyber-bg.44527257ee32d74ae878.png",
+    "index.html": "/web-management-sample/index.html",
+    "main.fa17e470.css.map": "/web-management-sample/static/css/main.fa17e470.css.map",
+    "main.012f0f79.js.map": "/web-management-sample/static/js/main.012f0f79.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa17e470.css",
+    "static/js/main.012f0f79.js"
+  ]
+}
